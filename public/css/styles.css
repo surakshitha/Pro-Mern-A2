@@ -1,0 +1,31 @@
+html{
+    background-image: linear-gradient( white,#E6E6FA);
+}
+h1 {
+    font-size: xxx-large;
+    text-align: center;
+}
+body{
+    font-size: xx-large;
+}
+form, select, input, button{
+    font-size: inherit;
+}
+form:last-child button{
+    margin-top: 5px;
+}
+#productcategory{
+    width: 90%;
+}
+#inventory-app{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table.bordered-table {
+    border-collapse: collapse; 
+    width: 100%;
+}
+table.bordered-table th, td {
+    border: 1px solid silver; 
+    padding: 4px;
+    text-align: center;
+}
